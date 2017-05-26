@@ -83,12 +83,6 @@ nav a {
 
 /* Banner Section */
 
-figure {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 60%;
-}
 
 figure img {
     width: 94%;
@@ -132,9 +126,46 @@ hgroup h3 {
     padding: 12px;
 }
 
+.main-img-container {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 60%;
+}
+
 /* Information Section */
 
+.l-column {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 60%;
+}
+
+.l-column .txt-container {
+    margin: 0 24px;
+    padding-right: 10px;
+}
+
+.l-column .txt-container h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.l-column .txt-container p {
+    font-size: 1rem;
+    color: #4A4A4A;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.l-column .txt-container cite {
+    font-size: 0.8rem;
+}
+
 .r-column {
+    flex-basis: 423px;
     border-left: 1px solid #D8D8D8;
 }
 
