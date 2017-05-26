@@ -142,101 +142,156 @@ hgroup h3 {
 
 /* left-column */
 
-.l-column {
+.information .l-column {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
     width: 60%;
 }
 
-.l-column img {
+.information .l-column img {
     width: 94%;
     padding: 32px 24px;
 }
 
-.l-column .txt-container {
+.information .l-column .txt-container {
     margin: 0 24px;
     padding-right: 10px;
 }
 
-.l-column .txt-container h2 {
+.information .l-column .txt-container h2 {
     font-size: 2.2rem;
     font-weight: 800;
     margin-bottom: 24px;
 }
 
-.l-column .txt-container p {
+.information.l-column .txt-container p {
     font-size: 0.95rem;
     color: #4A4A4A;
     line-height: 1.4;
     margin-bottom: 24px;
 }
 
-.l-column .txt-container cite {
+.information .l-column .txt-container cite {
     font-size: 0.8rem;
 }
 
 /* right column */
 
-.r-column {
+.information .r-column {
     width: 40%;
     border-left: 1px solid #D8D8D8;
     padding-top: 16px;
-    padding-bottom: 32px;
-    
+    padding-bottom: 64px;
 }
 
-.r-column .flex {
+.information .r-column .flex {
     align-items: center;
     border-bottom: 1px solid #D8D8D8;
 }
 
-.r-column .flex:last-child {
+.information .r-column .flex:last-child {
     background-color: #D8D8D8;
 }
 
-.r-column figure {
+.information .r-column figure {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
     width: 35%;
     height: auto;
-    margin-left: 16px;
-    margin-top: 16px;
-    margin-right: 16px;
-    margin-bottom: 16px;
+    margin: 16px;
 }
 
-.r-column img {
+.information .r-column img {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
     width: 100%;
 }
 
-.r-column .txt-container {
+.information .r-column .txt-container {
     width: 65%;
 }
 
-.r-column .txt-container a {
+.information .r-column .txt-container a {
     font-size: 0.9rem;
     text-decoration: none;
 }
 
-.r-column .txt-container h3 {
+.information .r-column .txt-container h3 {
     font-size: 1.2rem;
     color: #4A4A4A;
     font-weight: 700;
 }
 
-.r-column .txt-container p {
+.information .r-column .txt-container p {
     color: #4A4A4A;
     font-size: 0.9rem;
     padding: 12px 0;
     line-height: 1.4;
 }
 
+/* ===THESIS SECTION STYLES=== */
 
+.thesis h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 32px 0;
+    text-align: center;
+}
+
+/* left column */
+
+.thesis .l-column {
+    width: 60%;
+}
+
+.thesis .l-column .txt-container {
+    width: 100;
+    margin: 0px 24px;
+}
+
+.thesis .l-column h3 {
+    padding-bottom: 16px;
+}
+
+.thesis .l-column video {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    padding: 0 16px 24px 24px;
+}
+
+/* right column */
+
+.thesis .r-column {
+    width: 40%;
+}
+
+.thesis .r-column .flex {
+    align-items: center;
+}
+
+.thesis .r-column .flex:first-child {
+    background-color: #D8D8D8
+}
+
+.thesis .r-column img {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+}
+
+.thesis .r-column figure {
+     -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 35%;
+    height: auto;
+}
 
 /* ===FOOTER STYLES=== */
 
