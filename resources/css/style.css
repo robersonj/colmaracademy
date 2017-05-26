@@ -132,6 +132,12 @@ hgroup h3 {
     padding: 12px;
 }
 
+/* Information Section */
+
+.r-column {
+    border-left: 1px solid #D8D8D8;
+}
+
 /* ===FOOTER STYLES=== */
 
 footer {
