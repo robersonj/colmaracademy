@@ -225,7 +225,69 @@ hgroup h3 {
     line-height: 1.4;
 }
 
+/* ===COURSES SECTION STYLES=== */
+
+.courses {
+    background-color: #D8D8D8;
+}
+
+.courses h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 800;
+}
+
+.courses img {
+    width: 100%;
+}
+
+.courses-container {
+    flex-flow: wrap;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 32px;
+}
+
+.course-container {
+    background-color: white;
+    margin: 8px 16px;
+    width: 30%;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.course-container .txt-container {
+    height: 160px;
+    padding: 16px;
+    line-height: 1.3;
+}
+
+.courses .txt-container p {
+    color: #4A4A4A;
+}
+
+.courses .txt-container p:nth-child(2) {
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+.courses .txt-container p:nth-child(3) {
+    font-size: 0.9rem;
+}
+
+.courses .txt-container h3 {
+    font-weight: 700;
+}
+
+
 /* ===THESIS SECTION STYLES=== */
+
+.thesis {
+    padding-bottom: 32px;
+}
 
 .thesis h2 {
     font-size: 2rem;
@@ -246,6 +308,7 @@ hgroup h3 {
 }
 
 .thesis .l-column h3 {
+    font-weight: 800;
     padding-bottom: 16px;
 }
 
