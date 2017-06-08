@@ -73,6 +73,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
+nav img {
+    display: none;
+}
+
 .logo {
     text-transform: uppercase;
     font-size: 1.3rem;
@@ -411,8 +415,107 @@ footer span {
 
 /* ===RESPONSIVE DESIGN=== */
 
-@media only screen and (max-width: 1024px) {
-    .courses-container {
-        
+/* Tablet */
+
+@media only screen and (max-width: 800px) {
+    
+    /* header */
+    
+    nav span {
+        display: none;
+    }
+    
+    nav img {
+        display: inline-block;
+        margin-left: 40px;
+        height: 2rem;
+        padding-top: 5px;
+    }
+    
+    nav .middle {
+        margin-right: -10px;
+    }
+    
+    .logo span {
+        display: none;
+    }
+    
+    /* banner */
+    
+    .hgroup h1{
+        font-size: 1.8rem;
+        padding-bottom: 15px;;
+    }
+    
+    .hgroup h2 {
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+    }
+    
+    .hgroup h3 {
+        font-size: 1rem;
+    }
+    
+    .btn {
+        width: 60%;
+        padding-top: 8px;
+        padding-bottom: 8px;
     }
 }
+
+/* Mobile */
+
+@media only screen and (max-width: 615px) {
+    
+    /* header */
+    
+    .logo span {
+        display: none;
+    }
+    
+    .logo img {
+        height: 2.1rem;
+    }
+    
+    nav img {
+        display: inline-block;
+        margin-left: 30px;
+        padding-top: 7px;
+    }
+    
+    nav .middle {
+        margin-right: -10px;
+    }
+    
+    /* banner */ 
+    
+    .banner, .hgroup {
+        display: block;
+    }
+    
+    .banner figure {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .banner img {
+        min-height: 100px;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .banner .hgroup {
+        width: 100%;
+        margin: 0;
+        padding: 16px
+    }
+    
+    .btn {
+        margin: 0;
+        width: 85%;
+        
+    }
+    
+}
+    
