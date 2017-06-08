@@ -272,7 +272,7 @@ nav a:hover {
 }
 
 .course-container:hover {
-    box-shadow: 5px 5px 5px #888;
+    box-shadow: 7px 7px 5px #888;
 }
 
 .course-container .txt-container {
