@@ -461,11 +461,25 @@ footer span {
         padding-top: 8px;
         padding-bottom: 8px;
     }
+    
+    /* footer */
+    
+    footer div:first-child {
+        margin-top: 20px;
+    }
 }
+
+
 
 /* Mobile */
 
 @media only screen and (max-width: 615px) {
+    
+    /* universal styles */
+    
+    body {
+        width: 100%;
+    }
     
     /* header */
     
@@ -518,6 +532,30 @@ footer span {
         
     }
     
+    /* courses */
+    
+    .courses {
+        background-color: white;
+    }
+    
+    .courses h2 {
+        font-size: 1.7rem;
+    }
+    .courses figure, .courses p {
+        display: none;
+    }
+    
+    .courses .txt-container {
+        height: auto;
+    }
+    
+    .course-container {
+        background-color: #D8D8D8;
+        width: 100%;
+    }
+    
+    
+    
     /* thesis section */
     
     .thesis h2 {
@@ -546,8 +584,17 @@ footer span {
     
     /* footer section */
     
-    .social, .policy {
+    .policy {
         display: none;
+    }
+    
+    .social {
+        margin-top: 20px;
+    
+    }
+    
+    footer {
+        width: 100%;
     }
     
     footer div:first-child {
@@ -556,7 +603,7 @@ footer span {
     }
     footer div p {
         text-align: center;
-        padding: 15px 0;
+        margin-bottom: 15px;
     }
     
 }
