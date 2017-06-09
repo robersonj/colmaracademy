@@ -519,6 +519,10 @@ footer span {
     
     /* thesis section */
     
+    .thesis h2 {
+        font-size: 1.7rem;
+    }
+    
     .thesis .l-column {
         width: 100%;
         margin: 0;
@@ -537,6 +541,21 @@ footer span {
     
     .thesis .l-column .txt-container {
         display: none;
+    }
+    
+    /* footer section */
+    
+    .social, .policy {
+        display: none;
+    }
+    
+    footer div:first-child {
+        width: 100%;
+        
+    }
+    footer div p {
+        text-align: center;
+        padding: 15px 0;
     }
     
 }
