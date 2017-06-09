@@ -517,5 +517,27 @@ footer span {
         
     }
     
+    /* thesis section */
+    
+    .thesis .l-column {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .thesis .r-column {
+        display: none;
+    }
+    
+    .thesis .l-column video {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .thesis .l-column .txt-container {
+        display: none;
+    }
+    
 }
     
