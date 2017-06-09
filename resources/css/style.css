@@ -324,7 +324,7 @@ nav img {
 }
 
 .thesis .l-column .txt-container {
-    width: 100;
+    width: 100%;
     margin: 0px 24px;
 }
 
@@ -382,6 +382,10 @@ nav img {
 }
 
 /* ===FOOTER STYLES=== */
+
+footer {
+    width: 100%;
+}
 
 footer i {
     padding: 10px 10px 0px 10px;
@@ -477,6 +481,10 @@ footer span {
     
     /* universal styles */
     
+    main {
+        width: 100%;
+    }
+    
     body {
         width: 100%;
     }
@@ -506,6 +514,7 @@ footer span {
     
     .banner, .hgroup {
         display: block;
+        width: 100%;
     }
     
     .banner figure {
@@ -528,8 +537,18 @@ footer span {
     
     .btn {
         margin: 0;
-        width: 85%;
+        width: 100%;
         
+    }
+    
+    /* information section */
+    
+    .information .l-column {
+        display: none;
+    }
+    
+    .information .r-column {
+        width: 100%;
     }
     
     /* courses */
@@ -589,16 +608,18 @@ footer span {
     }
     
     .social {
-        margin-top: 20px;
+        margin-top: 40px;
     
     }
     
     footer {
         width: 100%;
+        margin: 0;
     }
     
     footer div:first-child {
         width: 100%;
+        padding: 0;
         
     }
     footer div p {
