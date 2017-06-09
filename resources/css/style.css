@@ -241,6 +241,10 @@ nav img {
     line-height: 1.4;
 }
 
+.information .r-column img:last-child {
+    display: none;
+}
+
 /* ===COURSES SECTION STYLES=== */
 
 .courses {
@@ -549,6 +553,34 @@ footer span {
     
     .information .r-column {
         width: 100%;
+        padding: 16px;
+    }
+    
+    .information .r-column .flex:last-child {
+        background-color: white;
+    }
+    
+    .information .r-column .txt-container {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 16px;
+    }
+    
+    .information .r-column img:first-child {
+        display: none;
+    }
+    
+    .information .r-column img:last-child {
+        display: block;
+    }
+    
+    .information .r-column figure {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .information .r-column .flex {
+        display: block;
     }
     
     /* courses */
@@ -559,6 +591,7 @@ footer span {
     
     .courses h2 {
         font-size: 1.7rem;
+        padding-top: 0;
     }
     .courses figure, .courses p {
         display: none;
@@ -573,12 +606,11 @@ footer span {
         width: 100%;
     }
     
-    
-    
     /* thesis section */
     
     .thesis h2 {
         font-size: 1.7rem;
+        padding-top: 0;
     }
     
     .thesis .l-column {
