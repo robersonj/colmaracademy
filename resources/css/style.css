@@ -470,10 +470,30 @@ footer span {
         padding-bottom: 8px;
     }
     
-    /* footer */
+    /* information section */
     
-    footer div:first-child {
-        margin-top: 20px;
+    .information .l-column {
+        display: none;
+    }
+    
+    .information .r-column {
+        width: 100%;
+    }
+    
+    .information .r-column img:first-child {
+        display: none;
+    }
+    
+    .information .r-column img:last-child {
+        display: inline-block;
+    }
+    
+    .information .r-column figure {
+        width: 55%;
+    }
+    
+    .information .r-column .flex:last-child {
+        border-bottom: none;
     }
 }
 
@@ -501,6 +521,12 @@ footer span {
     
     .logo img {
         height: 2.1rem;
+    }
+    
+    
+    
+    nav .mobile {
+        justify-content: space-around;
     }
     
     nav img {
@@ -651,6 +677,7 @@ footer span {
     
     footer div:first-child {
         width: 100%;
+        margin-top: 20px;
         padding: 0;
         
     }
