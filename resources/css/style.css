@@ -126,12 +126,13 @@ nav img {
     background-color: #4A4A4A;
     text-align: center;
     padding: 12px;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #6A6A6A;
 }
 
 .btn:hover {
-    font-size: 1.5rem;
-    padding: 14px;
-    text-transform: uppercase;
+    box-shadow: 0 2px 0 #6A6A6A;
+    transform: translateY(3px);
 }
 
 .hgroup {
@@ -179,7 +180,7 @@ nav img {
 
 .information .l-column img {
     width: 94%;
-    padding: 32px 24px;
+    padding: 16px 24px 32px 24px;
 }
 
 .information .l-column .txt-container cite {
@@ -232,11 +233,11 @@ nav img {
 
 .information .r-column .flex {
     align-items: center;
-    border-bottom: 1px solid #D8D8D8;
 }
 
 .information .r-column .flex:hover {
     background-color: #D8D8D8;
+    transition: background 600ms ease-in;
 }
 
 .information .r-column .txt-container {
@@ -276,6 +277,10 @@ nav img {
     font-weight: 700;
 }
 
+.courses .txt-container i {
+    padding-right: 8px;
+}
+
 .courses .txt-container p:nth-child(2) {
     padding: 15px 0;
     text-transform: uppercase;
@@ -294,6 +299,8 @@ nav img {
 
 .course-container:hover {
     box-shadow: 7px 7px 5px #888;
+    transition: box-shadow 500ms linear;
+    
 }
 
 .course-container .txt-container {
