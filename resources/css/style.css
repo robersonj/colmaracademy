@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    max-width: 1250px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -43,7 +43,7 @@ main {
 }
 
 .bg-gray {
-    background-color: #D8D8D8;
+    background-color: #CDCDCD;
 }
 
 .bold {
@@ -132,7 +132,7 @@ nav img {
 }
 
 .btn:hover {
-    box-shadow: 0 2px 0 #6A6A6A;
+    box-shadow: 0 2px 0 #000;
     transform: translateY(3px);
 }
 
@@ -238,7 +238,7 @@ nav img {
 }
 
 .information .r-column .flex:hover {
-    background-color: #E8E8E8;
+    background-color: #FFD18F;
     transition: background 600ms ease-in;
 }
 
@@ -395,7 +395,7 @@ nav img {
 }
 
 .thesis .r-column .flex:hover {
-    background-color: #D8D8D8;
+    background-color: #FFD18F;
     transition: background 600ms ease-in;
 }
 
@@ -420,7 +420,7 @@ footer i {
 }
 
 footer i:hover {
-    color: black;
+    color: #FFD18F;
     font-size: 1.5rem;
 }
 
@@ -458,6 +458,10 @@ footer .social {
     .logo h5, 
     .logo img {
         display: none;
+    }
+    
+    .mobile a {
+        display: flex;
     }
     
     nav img {
@@ -602,7 +606,6 @@ footer .social {
     /* courses */
     
     .course-container {
-        background-color: #D8D8D8;
         width: 100%;
         max-width: 550px;
     }
@@ -624,11 +627,19 @@ footer .social {
         height: auto;
     }
     
-    /* thesis section */
+    .courses .txt-container i:hover {
+        color: #C0FF14;
+    }
+    
+    .courses .txt-container i {
+        transition: color 1s linear;
+    }
+    
+    /* t0esis section */
     
     .thesis h2 {
         font-size: 1.7rem;
-        padding-top: 0;
+        padding-top: 0px;
     }
 
     .thesis .l-column {
