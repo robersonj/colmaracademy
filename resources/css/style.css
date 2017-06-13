@@ -34,6 +34,10 @@ html {
     font-size: 16px;
 }
 
+main {
+    padding-top: 64px;
+}
+
 .align-center {
     align-items: center;
 }
@@ -63,7 +67,11 @@ header {
     height: 64px;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
     padding: 0 24px;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
 }
 
 header .flex {
@@ -202,6 +210,10 @@ nav img {
     width: 40%;
     border-left: 1px solid #D8D8D8;
     padding: 16px 0 64px 0;
+}
+
+.information .r-column a {
+    color: blue;
 }
 
 .information .r-column figure {
@@ -565,10 +577,6 @@ footer .social {
     
     .information .r-column figure {
         margin: 0;
-    }
-    
-    .information .r-column .flex:last-child {
-        background-color: white;
     }
 
     /* courses */
