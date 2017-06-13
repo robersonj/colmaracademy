@@ -13,33 +13,36 @@
     </head>
     <body>
         <!-- Header Section -->
-        <header class="flex align-center">
-            <div class="logo flex align-center">
-                <img src="./resources/images/ic-logo.svg" alt="">
-                <h5><span class="bold">Colmar</span><span class="gray">Academy</span></h5>
-            </div>
-            <nav class="flex">
-                <a href="#"><span>On campus</span></a>
-                <a href="#"><span>Online</span></a>
-                <a href="#"><span>For Companies</span></a>
-                <a href="#"><span>Sign in</span></a>
-                <div class="mobile flex">
-                    <img src="./resources/images/ic-on-campus.svg" alt="">
-                    <img src="./resources/images/ic-online.svg" alt="">
-                    <img src="./resources/images/ic-login.svg" alt="">
+        <header class="align-center box">
+            <div class="flex desktop">
+                <div class="logo flex align-center">
+                    <img src="./resources/images/ic-logo.svg" alt="">
+                    <h5><span class="bold">Colmar</span><span>Academy</span></h5>
                 </div>
+                <nav>
+                    <a href="#"><span>On campus</span></a>
+                    <a href="#"><span>Online</span></a>
+                    <a href="#"><span>For Companies</span></a>
+                    <a href="#"><span>Sign in</span></a>
+                </nav>
+            </div>
+            <nav class="mobile flex">
+                <img src="./resources/images/ic-logo.svg" alt="">
+                <img src="./resources/images/ic-on-campus.svg" alt="">
+                <img src="./resources/images/ic-online.svg" alt="">
+                <img src="./resources/images/ic-login.svg" alt="">
             </nav>
         </header>
         
         <main>
             <!-- Banner Section -->
-           <section class="banner flex">
-                <figure class="main-img-container box">
+           <section class="banner flex box bg-gray">
+                <figure class="main-img-container">
                    <img src="./resources/images/banner.jpg" alt="">
                 </figure>
                 <div class="hgroup flex box">
                     <h1>Learn something new everyday</h1>
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    <h2>Lorem ipsum dograylor sit amet, consectetur adipiscing elit.</h2>
                     <h3 class="btn box">Start here</h3>
                 </div>
             </section>
@@ -52,7 +55,7 @@
                     <figure class="img-container">
                         <img src="./resources/images/information-main.jpg" alt="">
                     </figure>
-                    <div class="txt-container">
+                    <div class="txt-container box">
                         <h2>It doesn't hurt to keep practicing</h2>
                         <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
                         <cite>Emanuel, Sr Strategist at Hiring.com</cite>
@@ -98,7 +101,7 @@
             
             <!-- COURSES SECTION -->
             
-            <section class="courses">
+            <section class="courses bg-gray">
                 <h2>Start Learning</h2>
                 <div class="courses-container box flex">
                         <div class="course-container box">
@@ -203,7 +206,7 @@
         <footer class="box">
             <div class="txt-container flex">
                 <div>
-                    <p>&copy; 2017 Colmar Academy. All rights reserved.</p> <!--TODO change to 2017?--> <!--TODO change this to a heading? -->
+                    <p>&copy; 2017 Colmar Academy. All rights reserved.</p>
                 </div>
                 <div class="policy">
                     <span>Terms</span>
@@ -220,8 +223,4 @@
             </div>
         </footer>
     </body>
-    
 </html>
-
-<!--TODO change some of the side <div> containers to <aside> containers -->
-<!--TODO fix sizes of pictures in aside of information section. -->
