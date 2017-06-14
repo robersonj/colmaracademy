@@ -315,7 +315,6 @@ nav img {
 .course-container:hover {
     box-shadow: 7px 7px 5px #888;
     transition: box-shadow 500ms linear;
-    
 }
 
 .course-container .txt-container {
@@ -463,10 +462,6 @@ footer .txt-container {
         display: none;
     }
     
-    .mobile a {
-        display: flex;
-    }
-    
     nav img {
         display: flex;
         margin-top: 5px;
@@ -476,6 +471,10 @@ footer .txt-container {
     nav .mobile {
         justify-content: space-around;
         align-items: center;
+    }
+    
+    .mobile a {
+        display: flex;
     }
     
     /* banner */
