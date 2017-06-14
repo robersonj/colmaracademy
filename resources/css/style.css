@@ -73,6 +73,7 @@ header {
     width: 100%;
     max-width: inherit;
     z-index: 20;
+    border-bottom: 1px solid #A9A9A9;
 }
 
 header .flex {
@@ -181,9 +182,10 @@ nav img {
     width: 60%;
 }
 
-.information .l-column img {
-    width: 94%;
-    padding: 16px 24px 32px 24px;
+.information .l-column .txt-container {
+    margin: 0 24px;
+    padding-right: 10px;
+    max-width: inherit;
 }
 
 .information .l-column .txt-container cite {
@@ -191,16 +193,15 @@ nav img {
     padding-bottom: 16px;
 }
 
-.information .l-column .txt-container {
-    margin: 0 24px;
-    padding-right: 10px;
-    max-width: inherit;
-}
-
 .information .l-column .txt-container h2 {
     font-size: 2.2rem;
     font-weight: 800;
     margin-bottom: 24px;
+}
+
+.information .l-column img {
+    width: 94%;
+    padding: 16px 24px 32px 24px;
 }
 
 .information .l-column .txt-container p {
@@ -430,17 +431,17 @@ footer span {
     margin-left: 15px;
 }
 
+footer .social {
+    height: 50px;
+    text-align: center;
+}
+
 footer .txt-container {
     font-size: 0.85rem;
     justify-content: space-between;
     border-top: 1px solid #A9A9A9;
     padding: 10px 24px;
     height: 20px;
-}
-
-footer .social {
-    height: 50px;
-    text-align: center;
 }
 
 /* ===RESPONSIVE DESIGN=== */
@@ -637,7 +638,7 @@ footer .social {
         transition: color 1s linear;
     }
     
-    /* t0esis section */
+    /* thesis section */
     
     .thesis h2 {
         font-size: 1.7rem;
